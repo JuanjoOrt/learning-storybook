@@ -1,15 +1,9 @@
 import Button from './Button'
-import buttonDocs from './docs.mdx'
 
 export default {
-  title: 'inputs/buttons',
+  title: 'form/buttons',
   component: Button,
-  argTypes: { onClick: { action: 'clicked' } },
-  parameters: {
-    docs: {
-      page: buttonDocs
-    }
-  }
+  argTypes: { onClick: { action: 'clicked' } }
 }
 
 const Template = (args) => <Button {...args} />

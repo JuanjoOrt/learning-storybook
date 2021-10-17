@@ -1,0 +1,30 @@
+.card{
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+  
+    width: 20rem;
+    height: 25rem;
+  }
+  
+  .imagen{
+    width: 7rem;
+    border-radius: 50%;
+  }
+  
+  header{
+    margin: auto;
+    padding: 2rem 0 1rem 0;
+    width: fit-content;
+  }
+  
+  section{
+    padding: 0 2rem;
+  }
+  
+  .container{
+    display: flex;
+  }
+  
+  .item{
+    margin: 1rem;
+  }
