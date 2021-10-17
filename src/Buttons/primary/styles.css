@@ -1,0 +1,26 @@
+
+.button{
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    color: white;
+    border-radius: 5px;
+    padding: .6rem 1.3rem;
+    cursor: pointer;
+}
+
+.p-top{
+    padding-top: 5rem;
+}
+.p-bottom{
+    padding-bottom: 5rem;
+}
+.p-l{
+    padding-left: 5rem;
+}
+.p-r{
+    padding-right: 5rem;
+}
+
+.tomato{
+    background-color: tomato!important;
+}
