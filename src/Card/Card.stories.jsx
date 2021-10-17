@@ -1,7 +1,7 @@
 import CardComponent from './Card'
 
 export default {
-  title: 'layout/card',
+  title: 'layout/profile',
   component: CardComponent
 }
 
