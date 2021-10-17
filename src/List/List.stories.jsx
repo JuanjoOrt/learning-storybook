@@ -22,7 +22,9 @@ const items = [
 export default {
   title: 'layout/list',
   component: List,
-  argTypes: { onClick: { action: 'clicked' } }
+  argTypes: {
+    onClick: { action: 'clicked' }
+  }
 }
 
 const Template = (args) => <List {...args} />

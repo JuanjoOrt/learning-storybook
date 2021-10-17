@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './styles.css'
 const img = 'https://cdn.icon-icons.com/icons2/2643/PNG/512/male_boy_person_people_avatar_icon_159358.png'
 
@@ -15,4 +16,11 @@ export default function List ({ items = [], onClick }) {
         </div>
       })}
   </div>
+}
+
+List.propTypes = {
+  /** Elementos que quieres mostrar en la tabla */
+  items: PropTypes.array,
+  /** Devuelve la linea que has clickado */
+  onClick: PropTypes.func
 }
