@@ -6,7 +6,8 @@
     "build": "vite build",
     "serve": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^17.0.0",
@@ -20,6 +21,12 @@
     "@storybook/react": "^6.3.12",
     "@vitejs/plugin-react": "^1.0.0",
     "babel-loader": "^8.2.2",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.26.1",
     "vite": "^2.6.4"
   }
 }
