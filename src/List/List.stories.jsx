@@ -1,5 +1,4 @@
-import List from './List/List'
-import './App.css'
+import List from './List'
 
 const items = [
   {
@@ -20,10 +19,15 @@ const items = [
   }
 ]
 
-function App () {
-  return (
-      <List items={items}/>
-  )
+export default {
+  title: 'layout/list',
+  component: List,
+  argTypes: { onClick: { action: 'clicked' } }
 }
 
-export default App
+const Template = (args) => <List {...args} />
+
+export const ListComponent = Template.bind({})
+ListComponent.args = {
+  items: items
+}
